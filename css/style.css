@@ -1,0 +1,478 @@
+body{
+  font: 15px/1.5 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+  text-align: center;
+  color: #333;
+}
+
+h2{
+    font-family: 'Vibur', serif;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+
+/* Navigation */
+.container-1{
+  padding-top: 40px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: auto;
+  background: #D0DACC;
+  border: 0px red solid;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 414px){
+    .container-1{
+        flex-direction: column;
+        padding-top: 30px;
+        padding-bottom: 0px;
+        margin-bottom: -20px;
+        font-size: 21px;
+    }
+    
+    .container-1 a{
+        background-color: #e7ece5;
+        padding: 10xp 50px;
+    }
+    
+    .box-1-1, .box-1-2, .box-1-3, .box-1-4{
+        margin: 15px 0px;
+    }
+}
+
+.container-1 a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #333;
+  padding: 15px 38px;
+}
+
+.container-1 a:hover{
+  background-color: #e7ece5;
+  transition: 0.5s;
+}
+
+.container-1 .current a {
+  background-color: #a6aea3;
+}
+
+.box-1-1{
+  padding: 5px;
+  border: 0px red solid;
+}
+
+.box-1-2{
+  padding: 5px;
+  border: 0px red solid;
+}
+
+.box-1-3{
+  padding: 5px;
+  border: 0px red solid;
+}
+
+.box-1-4{
+  padding: 5px;
+  border: 0px red solid;
+}
+
+
+
+/* Header */
+.container-2{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 500px;
+  background: #D0DACC;
+  border: 0px red solid;
+}
+
+@media only screen and (max-width: 414px){
+    .container-2{
+        height:870px;
+    }
+}
+
+.box-2-1{
+  width: auto;
+  padding: 20px;
+  border: 0px red solid;
+  margin-right: 40px;
+}
+
+@media only screen and (max-width: 414px){
+    .box-2-1{
+        margin-right: 0px;
+        margin-bottom: -30px;
+        padding-bottom: 0px;
+    }
+}
+
+#susanne{
+  font-size: 70px;
+  line-height: 0.4;
+  font-family: 'Vibur', serif;
+  font-weight: 400;
+}
+
+#stee{
+  font-size: 95px;
+  line-height: 0.2;
+  font-family: 'Vibur', serif;
+  font-weight: 400;
+}
+
+.box-2-1 p{
+  font-size: 17px;
+    line-height: 1.6;
+}
+
+.box-2-2{
+  width: auto;
+  padding: 20px;
+  border: 0px red solid;
+  background: #D0DACC;
+}
+
+.box-2-2 img{
+  /*height: 450px;*/
+    width: 290px;
+}
+
+
+
+/* Hei */
+.container-3{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  border: 0px red solid;
+}
+
+.box-3-1{
+  padding: 50px;
+  margin: 0px 20px;
+  width: 550px;
+  border: 0px red solid;
+  line-height: 1.4;
+}
+
+@media only screen and (max-width: 414px){
+    .box-3-1{
+        padding: 35px;
+    }
+}
+
+
+/* Arbeidserfaring */
+.container-4{
+  margin-top: -10px;
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  border: 0px red solid;
+}
+
+.box-4-1{
+  padding: 50px 180px;
+  margin: 20px;
+  width: 500px;
+  border: 6px #D0DACC solid;
+}
+
+@media only screen and (max-width: 414px){
+    .container-4{
+      margin-top: -10px;
+    }
+    
+    .box-4-1{
+      padding: 35px;
+    }
+}
+
+.arstall{
+    margin-bottom: -2px;
+    font-size: 14px !important;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.sted{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: -15px
+}
+
+.tittel{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: -10px;
+}
+
+.container-4 p{
+    font-size: 13.5px;
+}
+
+
+
+/* Ferdigheter */
+.container-5{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: auto;
+  width: auto;
+  justify-content: center;
+  border: 1px red solid;
+}
+
+.container-5 img {
+  height: 100px;
+    margin-top: 20px;
+}
+
+.box-5-1{
+  width: 250px;
+  padding: 20px;
+  margin: 20px;
+  border: 6px #D0DACC solid;
+}
+
+.box-5-2{
+  width: 250px;
+  padding: 20px;
+  margin: 20px;
+  border: 6px #D0DACC solid;
+}
+
+.box-5-3{
+  width: 250px;
+  padding: 20px;
+  margin: 20px;
+  border: 6px #D0DACC solid;
+}
+
+
+
+/* Last ned min CV */
+.container-6{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  border: 1px red solid;
+}
+
+.box-6-1{
+  padding: 0px;
+  margin: 20px;
+  /*width: 460px;
+  background: #D0DACC;*/
+}
+
+.container-6 a{
+  width: auto;
+  padding: 20px 70px;
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  background-color: #D0DACC;
+    
+}
+
+.container-6 a:hover{
+  background-color: #e7ece5;
+    transition: 0.5s;
+}
+
+
+
+/* Kontakt meg */
+.container-7{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  border: 1px red solid;
+}
+
+.box-7-1{
+  padding: 20px;
+  margin: 20px;
+  width: 800px;
+  border: 6px #D0DACC solid;
+}
+
+input {
+  margin: 9px;
+  padding: 12px;
+  width: 240px;
+}
+
+#emne, #melding{
+  width: 57.5%;
+  min-width: 240px;
+}
+
+button {
+  padding: 10px 10px;
+  margin: 8px;
+  width: 250px;
+  background-color: #D0DACC;
+  border: 0 #000 solid;
+  font-weight: bold;
+  color: #333;
+}
+
+button:hover {
+  background-color: #e7ece5;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+
+
+/* Footer */
+.container-8{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  border: 1px red solid;
+}
+
+.box-8-1{
+  width: 100%;
+  padding: 20px;
+  border: 1px red solid;
+}
+
+#flaticon{
+  font-size: 9px;
+  color: #999;
+}
+
+#flaticon a{
+  color: #999;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Global
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+
+/* Header
+.flex-container-header{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  min-height: 350px;
+  background-color: #D0DACC;
+  text-align: center;
+}
+
+#portrett{
+  min-height: 300px;
+  max-height: 450px;
+  margin-top: 20px;
+}
+
+#Susanne{
+  margin-top: 70px;
+  font-size: 55px;
+  color: #333333;
+  text-align: center;
+}
+
+#Stee{
+  margin-top: -80px;
+  font-size: 105px;
+  letter-spacing: 1px;
+  margin-bottom: -8px;
+  color: #333333;
+  text-align: center;
+}
+
+.flex-container p{
+  font-size: 20px;
+  text-align: center;
+}
+
+
+/* Ferdigheter
+#ferdigheter{
+  margin: 0px;
+  text-align: center;
+  border: 0px solid #D0DACC;
+}
+
+#ferdigheter .box2{
+  float: left;
+  width: 28%;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  background-color: red;
+}
+
+#ferdigheter .box2 img{
+  width: 90px;
+}
