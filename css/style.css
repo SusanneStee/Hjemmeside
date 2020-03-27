@@ -20,7 +20,7 @@ h2{
 /* Navigation */
 .container-1{
   padding-top: 40px;
-  padding-bottom: 10px;
+  padding-bottom: 35px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -35,7 +35,7 @@ h2{
     .container-1{
         flex-direction: column;
         padding-top: 30px;
-        padding-bottom: 0px;
+        padding-bottom: 30px;
         margin-bottom: -20px;
         font-size: 21px;
     }
@@ -166,6 +166,18 @@ h2{
   border: 0px red solid;
 }
 
+.container-3 h1{
+    font-family: 'Vibur', serif;
+    font-size: 33px;
+    font-weight: 600;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+.container-3 p{
+    font-size: px;
+}
+
 .box-3-1{
   padding: 50px;
   margin: 0px 20px;
@@ -286,7 +298,7 @@ h2{
   padding: 40px;
   margin: 20px;
   border: 0px #D0DACC solid;
-  background-image: linear-gradient(170deg, #d0dacc, #fff);
+  background-image: linear-gradient(170deg, #d0dacc, #f5f7f4);
 }
 
 .box-5-2{
@@ -295,7 +307,7 @@ h2{
   margin: 20px;
   border: 0px #D0DACC solid;
   align-items: center;
-  background-image: linear-gradient(170deg, #d0dacc, #fff);
+  background-image: linear-gradient(170deg, #d0dacc, #f5f7f4);
 }
 
 .box-5-3{
@@ -304,7 +316,7 @@ h2{
   margin: 20px;
   border: 0px #D0DACC solid;
   align-items: center;
-  background-image: linear-gradient(170deg, #d0dacc, #fff);
+  background-image: linear-gradient(170deg, #d0dacc, #f5f7f4);
 }
 
 
@@ -322,9 +334,25 @@ h2{
   border: 0px red solid;
 }
 
+.container-6-webdesign{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  border: 0px red solid;
+}
+
 .box-6-1{
   padding: 0px;
   margin: 20px;
+}
+
+.box-6-1-webdesign{
+  padding: 0px;
+  margin: 20px;
+    margin-top: -60px;
 }
 
 .container-6 a{
@@ -341,7 +369,26 @@ h2{
     
 }
 
+.container-6-webdesign a{
+  width: auto;
+  padding: 17px 75px;
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  background-color: #D0DACC;
+  font-family: 'Roboto', sans-serif;
+  text-transform: none;
+  font-weight: 500;
+  font-size: 16px;
+    
+}
+
 .container-6 a:hover{
+  background-color: #e7ece5;
+  transition: 0.5s;
+}
+
+.container-6-webdesign a:hover{
   background-color: #e7ece5;
   transition: 0.5s;
 }
@@ -379,7 +426,7 @@ input {
 }
 
 button {
-  padding: 10px 10px;
+  padding: 20px 70px;
   margin: 15px;
   width: 200px;
   background-color: #D0DACC;
